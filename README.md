@@ -72,8 +72,4 @@ Abre la aplicación y concede el permiso de **acceso a todos los archivos** que 
 | **POCO X8 Pro Max** | PanVK — Zenith 26.3.1 | Jugable (**>30 FPS**). |
 | **Google Pixel 10a** | Pendiente de confirmar | En pruebas. |
 
-## Créditos
-
-Proyecto desarrollado de forma independiente, basado originalmente e inspirado en [WoW Forever for Android](https://github.com/jaredgei/wow-forever-android).
-
 Proyecto comunitario no oficial, sin afiliación ni respaldo de Blizzard Entertainment. Los APK de esta aplicación no incluyen los archivos del juego de Blizzard.
