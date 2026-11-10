@@ -2,7 +2,7 @@
 
 Aplicación para ejecutar World of Warcraft en dispositivos Android ARM64, con soporte gráfico para Mali/PanVK y Adreno/Turnip.
 
-Este es el repositorio público de **documentación y releases**. Aquí publicaremos los APK que vayamos seleccionando; el código de desarrollo se mantiene en un repositorio privado.
+Este es el repositorio público de **documentación y releases**. Aquí publicaremos los APK que vayamos seleccionando.
 
 ## Descargas
 
@@ -82,6 +82,6 @@ Para añadir o actualizar un dispositivo, registraremos **modelo, GPU, versión 
 
 ## Créditos
 
-Proyecto desarrollado de forma independiente, basado originalmente e inspirado en [WoW Forever for Android](https://github.com/jaredgei/wow-forever-android), con trabajo gráfico de referencia de [RealmDeck](https://github.com/apazosg/realmdeck-android).
+Proyecto desarrollado de forma independiente, basado originalmente e inspirado en [WoW Forever for Android](https://github.com/jaredgei/wow-forever-android).
 
 Proyecto comunitario no oficial, sin afiliación ni respaldo de Blizzard Entertainment. Los APK de esta aplicación no incluyen los archivos del juego de Blizzard.
