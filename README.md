@@ -66,19 +66,12 @@ Abre la aplicación y concede el permiso de **acceso a todos los archivos** que 
 
 ## Dispositivos probados y funcionando
 
-Este registro recoge resultados de esta aplicación. Las pruebas del proyecto original o de otras aplicaciones no se cuentan como confirmación de compatibilidad aquí.
-
-| Dispositivo | Resultado registrado | Detalles | Fecha |
-| --- | --- | --- | --- |
-| **POCO X8 Pro Max** | **Funcionando según prueba del usuario** | Buen funcionamiento reportado con PanVK 26.3.1 tras corregir un error de validación. No se han registrado la versión exacta del APK, Android ni mediciones de rendimiento. | 2026-11-08 |
-
-### Pruebas parciales
-
-| Dispositivo | Entorno | Resultado registrado |
+| Dispositivo | Driver probado | Resultado |
 | --- | --- | --- |
-| POCO identificado como **xaga** | Mali-G610, Android 14, PanVK 26.3.1 | Arranque, cinemática y pantalla de login con fondo 3D comprobados. Esta prueba no confirma una sesión jugable. |
-
-Para añadir o actualizar un dispositivo, registraremos **modelo, GPU, versión de Android, versión del APK, resultado y fecha**. Cuando haya mediciones, incluiremos también resolución, FPS y problemas observados. Los datos que aún no se hayan comprobado quedarán indicados como pendientes, sin dar por compatible un dispositivo únicamente por su GPU.
+| **POCO X4 GT** | PanVK — Zenith 26.3.1 | Funciona con pocos FPS (**<20**). |
+| **POCO X8 Pro Max** | PanVK — Zenith 26.3.1 | Jugable (**>30 FPS**). |
+| **POCO X8 Pro Max** | PanVK — JimVulkan 1.5.0 (r9) | No funciona. |
+| **Google Pixel 10a** | Pendiente de confirmar | En pruebas. |
 
 ## Créditos
 
