@@ -70,7 +70,6 @@ Abre la aplicación y concede el permiso de **acceso a todos los archivos** que 
 | --- | --- | --- |
 | **POCO X4 GT** | PanVK — Zenith 26.3.1 | Funciona con pocos FPS (**<20**). |
 | **POCO X8 Pro Max** | PanVK — Zenith 26.3.1 | Jugable (**>30 FPS**). |
-| **POCO X8 Pro Max** | PanVK — JimVulkan 1.5.0 (r9) | No funciona. |
 | **Google Pixel 10a** | Pendiente de confirmar | En pruebas. |
 
 ## Créditos
