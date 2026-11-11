@@ -76,4 +76,14 @@ Open the app and grant the requested **all files access** permission so it can m
 | **POCO X8 Pro Max** | PanVK — Zenith 26.3.1 | Playable (**>30 FPS**). |
 | **Google Pixel 10a** | To be confirmed | Testing in progress. |
 
+## Reporting issues
+
+Report bugs and errors through [GitHub Issues](https://github.com/apazosg/ClassicForever-android/issues). To help us investigate, please include:
+
+- The app version.
+- Your device model and Android version.
+- A description of the problem and the steps to reproduce it.
+- What you expected to happen and what actually happened.
+- Screenshots or logs, if available.
+
 Unofficial community project, not affiliated with or endorsed by Blizzard Entertainment. This app's APKs do not include Blizzard game files.
