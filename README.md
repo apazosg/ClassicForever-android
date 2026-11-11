@@ -1,79 +1,79 @@
 # ClassicForever Android
 
-Aplicación para ejecutar World of Warcraft en dispositivos Android ARM64, con soporte gráfico para Mali/PanVK y Adreno/Turnip.
+An app for running World of Warcraft on Android ARM64 devices, with graphics support for Mali/PanVK and Adreno/Turnip.
 
-Este es el repositorio público de **documentación y releases**. Aquí publicaremos los APK que vayamos seleccionando.
+This is the public **documentation and releases** repository. Selected APK builds are published here.
 
-## Descargas
+## Downloads
 
-La primera versión pública es **[0.0.1](https://github.com/apazosg/ClassicForever-android/releases/tag/v0.0.1)**. Descarga su APK desde [Releases](https://github.com/apazosg/ClassicForever-android/releases).
+The first public version is **[0.0.1](https://github.com/apazosg/ClassicForever-android/releases/tag/v0.0.1)**. Download its APK from [Releases](https://github.com/apazosg/ClassicForever-android/releases).
 
-Cada release indicará los cambios, las instrucciones específicas de esa versión y las limitaciones conocidas. Las publicaciones se realizarán cuando decidamos que una versión está lista para compartir.
+Each release describes its changes, version-specific instructions, and known limitations. New releases are published when we decide a version is ready to share.
 
-Consulta la [numeración y el formato de las notas de publicación](docs/releases.md). Desde `0.0.1`, la aplicación avisa de nuevas versiones publicadas aquí y permite consultar sus novedades y descargar la actualización. En **Ajustes → Buscar actualizaciones** puedes comprobarlo manualmente, incluso sin haber instalado el juego.
+See the [version numbering and release notes format](docs/releases.md). Starting with `0.0.1`, the app notifies you about new versions published here and lets you read their release notes and download updates. You can also check manually under **Settings → Check for app updates**, even if you have not installed the game.
 
-## Funcionalidades
+## Features
 
-- **Instalación del juego desde la aplicación**, con descarga inicial del cliente y descarga progresiva de los datos mientras juegas.
-- **Reutilización de una instalación existente**, seleccionando su carpeta o copiando sus archivos desde un ordenador.
-- **Actualización del cliente del juego** desde el propio launcher.
-- **Soporte gráfico Mali/PanVK y Adreno/Turnip**, según la compatibilidad del dispositivo. No requiere root.
-- **Gestión de cuenta y credenciales guardadas**, con contraseñas cifradas mediante Android Keystore y controles para configurarlas, actualizarlas o borrarlas.
-- **Selección de región y resolución** de 720p o 1080p.
-- **Mandos, controles en pantalla y teclado Android** durante el juego.
-- **Superposición de rendimiento y herramientas de diagnóstico** accesibles desde el menú del juego.
+- **In-app game installation**, with an initial client download and progressive game data downloads while you play.
+- **Reuse an existing installation** by selecting its folder or copying its files from a computer.
+- **Game client updates** directly from the launcher.
+- **Mali/PanVK and Adreno/Turnip graphics support**, depending on device compatibility. No root required.
+- **Account and saved credential management**, with passwords encrypted using Android Keystore and controls to set, update, or delete them.
+- **Region selection and 720p or 1080p resolution**.
+- **Gamepads, on-screen controls, and the Android keyboard** during gameplay.
+- **Performance overlay and diagnostic tools** accessible from the in-game menu.
 
-La presencia de una función no garantiza que todos los dispositivos o versiones del cliente sean compatibles. Consulta los resultados de pruebas más abajo y las notas del APK que instales.
+The availability of a feature does not guarantee compatibility with every device or client version. Check the test results below and the release notes for the APK you install.
 
-## Capturas de pantalla
+## Screenshots
 
-### Instalación del juego
+### Game installation
 
-![Pantalla de instalación del juego con progreso de descarga y configuración rápida de resolución](docs/images/instalacion.png)
+![Game installation screen showing download progress and quick resolution settings](docs/images/instalacion.png)
 
-## Requisitos
+## Requirements
 
-- Dispositivo **Android ARM64** con GPU y controladores compatibles. En Mali, la compatibilidad depende también del kernel; no basta con tener una GPU Mali.
-- Espacio libre suficiente: como referencia, unos **60 GB para los datos del juego**, más aproximadamente **4 GB para la aplicación y su entorno**. El uso inicial es menor y aumenta con la descarga progresiva.
-- Conexión a Internet; se recomienda Wi-Fi para las descargas.
-- Una cuenta para acceder al juego.
+- An **Android ARM64** device with a compatible GPU and drivers. On Mali devices, compatibility also depends on the kernel; having a Mali GPU alone is not enough.
+- Sufficient free storage: allow around **60 GB for game data**, plus approximately **4 GB for the app and its runtime environment**. Initial usage is lower and grows as game data is downloaded progressively.
+- An Internet connection; Wi-Fi is recommended for downloads.
+- An account to access the game.
 
-## Instalación y primeros pasos
+## Installation and getting started
 
-### 1. Instalar la aplicación
+### 1. Install the app
 
-Descarga el APK desde [Releases](https://github.com/apazosg/ClassicForever-android/releases) e instálalo en Android. Si el sistema lo solicita, permite instalar aplicaciones desde la aplicación con la que abras el APK.
+Download the APK from [Releases](https://github.com/apazosg/ClassicForever-android/releases) and install it on Android. If prompted, allow app installations from the app you use to open the APK.
 
-Si ya utilizas una compilación anterior, instala `0.0.1` manualmente sobre ella, sin desinstalarla. A partir de esa versión, podrás consultar las siguientes actualizaciones desde la propia aplicación.
+If you already use an older build, install `0.0.1` manually over it without uninstalling it. From that version onward, you can check for future updates from within the app.
 
-Las compilaciones actuales pueden aparecer como **WoW Forever Mali**, con el identificador `app.wowforever.mali`.
+Current builds may appear as **WoW Forever Mali**, with the package name `app.wowforever.mali`.
 
-### 2. Preparar los archivos del juego
+### 2. Prepare the game files
 
-Abre la aplicación y concede el permiso de **acceso a todos los archivos** que solicita para gestionar la carpeta del juego.
+Open the app and grant the requested **all files access** permission so it can manage the game folder.
 
-- **Instalación nueva:** elige la ubicación y pulsa **Download & Install**. La carpeta predeterminada es `/storage/emulated/0/WoW Forever/`. No hace falta descargar todos los datos antes del primer arranque: el cliente los obtiene según los necesita.
-- **Instalación existente:** utiliza **Locate Existing Files** para seleccionar su carpeta. Si copias una instalación desde un ordenador, conserva tanto la carpeta `Data/` como el archivo oculto `.build.info` en la raíz de la carpeta del juego.
+- **New installation:** choose a location and tap **Download & Install**. The default folder is `/storage/emulated/0/WoW Forever/`. You do not need to download all game data before the first launch: the client downloads it as needed.
+- **Existing installation:** use **Locate Existing Files** to select its folder. If you copy an installation from a computer, keep both the `Data/` folder and the hidden `.build.info` file at the root of the game folder.
 
-### 3. Configurar la aplicación y jugar
+### 3. Configure the app and play
 
-1. Configura o actualiza tu cuenta desde la pantalla principal.
-2. Ajusta la resolución desde la configuración rápida y revisa las opciones de **Ajustes** si lo necesitas.
-3. Con los archivos del juego preparados, inicia el juego desde el launcher. El primer arranque prepara el entorno y puede tardar unos minutos.
+1. Set up or update your account from the main screen.
+2. Adjust the resolution using the quick settings and review **Settings** if needed.
+3. Once the game files are ready, start the game from the launcher. The first launch sets up the runtime environment and may take a few minutes.
 
-### 4. Controles y ajustes durante el juego
+### 4. In-game controls and settings
 
-- Pulsa **Atrás** para abrir el menú lateral con teclado, controles en pantalla, rendimiento y salida.
-- Los mandos utilizan el soporte de gamepad del propio juego.
-- Para volver a la configuración cuando la aplicación arranca automáticamente, pulsa Atrás durante la pantalla inicial o mantén **Start + Select + L2 + R2**.
-- Los códigos de autenticación adicional, cuando correspondan, se introducen manualmente.
+- Press **Back** to open the side menu with keyboard, on-screen controls, performance, and exit options.
+- Gamepads use the game's built-in controller support.
+- To return to configuration when the app starts the game automatically, press Back during the startup screen or hold **Start + Select + L2 + R2**.
+- Enter additional authentication codes manually when required.
 
-## Dispositivos probados y funcionando
+## Tested devices
 
-| Dispositivo | Driver probado | Resultado |
+| Device | Tested driver | Result |
 | --- | --- | --- |
-| **POCO X4 GT** | PanVK — Zenith 26.3.1 | Funciona con pocos FPS (**<20**). |
-| **POCO X8 Pro Max** | PanVK — Zenith 26.3.1 | Jugable (**>30 FPS**). |
-| **Google Pixel 10a** | Pendiente de confirmar | En pruebas. |
+| **POCO X4 GT** | PanVK — Zenith 26.3.1 | Runs at low FPS (**<20**). |
+| **POCO X8 Pro Max** | PanVK — Zenith 26.3.1 | Playable (**>30 FPS**). |
+| **Google Pixel 10a** | To be confirmed | Testing in progress. |
 
-Proyecto comunitario no oficial, sin afiliación ni respaldo de Blizzard Entertainment. Los APK de esta aplicación no incluyen los archivos del juego de Blizzard.
+Unofficial community project, not affiliated with or endorsed by Blizzard Entertainment. This app's APKs do not include Blizzard game files.

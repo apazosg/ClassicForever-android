@@ -1,56 +1,58 @@
-# Versiones y notas de publicación
+# Versions and release notes
 
-La numeración propia de ClassicForever Android comienza en **0.0.1**, independientemente de las versiones de los proyectos en los que se basa.
+ClassicForever Android's own version numbering starts at **0.0.1**, independently of the versions of the projects it is based on.
 
-## Numeración
+## Version numbering
 
-- **0.0.2, 0.0.3…:** correcciones y ajustes menores.
-- **0.1.0, 0.2.0…:** nuevas funciones o mejoras relevantes.
-- **1.0.0:** primera versión que decidamos considerar estable.
+- **0.0.2, 0.0.3…:** bug fixes and minor adjustments.
+- **0.1.0, 0.2.0…:** new features or significant improvements.
+- **1.0.0:** the first version we decide to consider stable.
 
-Cada publicación usa estos nombres, sustituyendo la versión correspondiente:
+Each release uses the following names, substituting the appropriate version:
 
-- Versión en la aplicación: `0.0.1`.
+- App version: `0.0.1`.
 - Tag: `v0.0.1`.
-- Título: `ClassicForever Android 0.0.1`.
-- Archivo: `ClassicForever-Android-0.0.1.apk`.
+- Title: `ClassicForever Android 0.0.1`.
+- File: `ClassicForever-Android-0.0.1.apk`.
 
-Las releases se publican como publicaciones normales de GitHub. Que la versión empiece por `0` no requiere marcarla como *prerelease*: las limitaciones experimentales se explican en sus notas. Los avisos de la aplicación consultan la última release publicada, no las marcadas como *prerelease*.
+Releases are published as regular GitHub releases. A version starting with `0` does not need to be marked as a *prerelease*: experimental limitations are explained in its notes. The app's update notifications check the latest published release, excluding those marked as *prerelease*.
 
-## Notas de cada release
+## Language and release notes
 
-Las notas se escriben en español, con cambios funcionales comprensibles para quien utiliza la aplicación. No incluyen listas de commits ni detalles internos de programación. Se omiten los apartados vacíos y solo se describen funciones o resultados comprobados.
+All public repository documentation, the repository description, and release notes must be written in **English**. This rule applies to every future release as well.
 
-La primera release presenta las funciones disponibles, en lugar de compararse con una publicación anterior que no existe. Las siguientes explican los cambios respecto a la versión pública anterior.
+Release notes describe functional changes in language app users can understand. They do not include commit lists or internal programming details. Omit empty sections and describe only verified features or results.
 
-La aplicación muestra las mismas notas publicadas en GitHub; no se mantiene otro changelog separado.
+The first release presents the available features rather than comparing them with a previous release that does not exist. Subsequent releases explain changes relative to the previous public version.
+
+The app displays the same release notes published on GitHub; no separate changelog is maintained.
 
 ```markdown
-Breve resumen de lo más importante de esta versión.
+A brief summary of the highlights of this version.
 
-## Novedades
-- Ahora puedes…
+## What's new
+- You can now…
 
-## Mejoras
-- Resulta más sencillo…
+## Improvements
+- It is now easier to…
 
-## Correcciones
-- Corregido un problema que impedía…
+## Fixes
+- Fixed an issue that prevented…
 
-## Limitaciones conocidas
-- Problemas relevantes que siguen pendientes.
+## Known limitations
+- Important issues that remain unresolved.
 
-## Instalación
-Descarga e instala el APK adjunto.
-[Indicaciones especiales, solo cuando sean necesarias.]
+## Installation
+Download and install the attached APK.
+[Special instructions, only when needed.]
 ```
 
-## Publicar una versión
+## Publishing a release
 
-1. Asignar la versión visible y aumentar el contador interno de Android, manteniendo el identificador y la firma de la aplicación.
-2. Preparar las notas funcionales con el formato anterior.
-3. Generar y comprobar el APK firmado.
-4. Publicar el tag, las notas y el APK en este repositorio.
-5. Comprobar la detección desde una versión anterior y la lectura de las mismas notas dentro de la aplicación.
+1. Set the visible version and increase Android's internal version code, keeping the app's package name and signing identity unchanged.
+2. Prepare user-facing release notes in English using the format above.
+3. Build and verify the signed APK.
+4. Publish the tag, release notes, and APK in this repository.
+5. Verify update detection from an older version and that the same release notes can be read within the app.
 
-La primera instalación de `0.0.1` sobre las compilaciones anteriores se realiza manualmente, porque esas compilaciones consultan el repositorio anterior. A partir de `0.0.1`, la aplicación consulta las releases de este repositorio.
+The initial installation of `0.0.1` over older builds is manual because those builds check the previous repository. Starting with `0.0.1`, the app checks releases in this repository.
