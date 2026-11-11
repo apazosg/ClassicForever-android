@@ -6,9 +6,11 @@ Este es el repositorio público de **documentación y releases**. Aquí publicar
 
 ## Descargas
 
-Los APK se publicarán en [Releases](https://github.com/apazosg/ClassicForever-android/releases). **Todavía no hay ninguna versión publicada en este repositorio.**
+La primera versión pública es **[0.0.1](https://github.com/apazosg/ClassicForever-android/releases/tag/v0.0.1)**. Descarga su APK desde [Releases](https://github.com/apazosg/ClassicForever-android/releases).
 
 Cada release indicará los cambios, las instrucciones específicas de esa versión y las limitaciones conocidas. Las publicaciones se realizarán cuando decidamos que una versión está lista para compartir.
+
+Consulta la [numeración y el formato de las notas de publicación](docs/releases.md). Desde `0.0.1`, la aplicación avisa de nuevas versiones publicadas aquí y permite consultar sus novedades y descargar la actualización. En **Ajustes → Buscar actualizaciones** puedes comprobarlo manualmente, incluso sin haber instalado el juego.
 
 ## Funcionalidades
 
@@ -40,7 +42,9 @@ La presencia de una función no garantiza que todos los dispositivos o versiones
 
 ### 1. Instalar la aplicación
 
-Cuando haya una versión disponible, descarga su APK desde [Releases](https://github.com/apazosg/ClassicForever-android/releases) e instálalo en Android. Si el sistema lo solicita, permite instalar aplicaciones desde la aplicación con la que abras el APK.
+Descarga el APK desde [Releases](https://github.com/apazosg/ClassicForever-android/releases) e instálalo en Android. Si el sistema lo solicita, permite instalar aplicaciones desde la aplicación con la que abras el APK.
+
+Si ya utilizas una compilación anterior, instala `0.0.1` manualmente sobre ella, sin desinstalarla. A partir de esa versión, podrás consultar las siguientes actualizaciones desde la propia aplicación.
 
 Las compilaciones actuales pueden aparecer como **WoW Forever Mali**, con el identificador `app.wowforever.mali`.
 
