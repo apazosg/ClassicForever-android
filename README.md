@@ -74,7 +74,7 @@ Open the app and grant the requested **all files access** permission so it can m
 | --- | --- | --- |
 | **POCO X4 GT** | PanVK — Zenith 26.3.1 | Runs at low FPS (**<20**). |
 | **POCO X8 Pro Max** | PanVK — Zenith 26.3.1 | Playable (**>30 FPS**). |
-| **Google Pixel 10a** | To be confirmed | Testing in progress. |
+| **Google Pixel 10a** | Jim Vulkan R10 | User-tested: works perfectly at low settings (**>30 FPS**). |
 
 ## Reporting issues
 
